@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Hind+Madurai&family=Lato:wght@300&family=Merriweather:ital,wght@1,300&family=Open+Sans:wght@300&family=Padauk&family=Playfair+Display&family=Roboto&family=Roboto+Flex:opsz@8..144&family=Roboto+Mono&family=Titillium+Web:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: 'Hind Madurai', sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+
+.container {
+    height: 1000px;
+}
+.header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side {
+display: flex;
+align-items: center;
+padding: 10px;
+flex-basis: 40%;
+}
+.logo  {
+    width: 127px;
+    height: 65px;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+.left-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+.left-links a{
+    color: black;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+.right-links {
+    display: flex;
+    flex-basis: 30%;
+    align-items: center;
+    padding: 10px;
+}
+.right-links a  {
+    padding: 10px;
+    color: black;
+    border-right: 1px solid #ddd;
+    
+}
+.right-links-head {
+    width: 400px;
+}
+.right-img {
+    height: 45px;
+    width: 47px;
+
+}
+.right-img img {
+    height: 100%;
+    width: 100%;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    padding: 0 20px 0 20px;
+}
+.left {
+flex-basis: 30%;
+height: 550px;
+box-shadow: 10px 10px 43px;
+
+}
+.left img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.right {
+    flex: 1;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.right p {
+    text-indent: 30px;
+    line-height: 1.7;
+}
+.right p::first-letter {
+    color: red;
+    font-size:40px;
+}
+.footer {
+    background: #383e42;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.up-list {
+    padding: 20px;
+    display: flex;
+    font-weight: bold;
+    color: white;
+}
+.up-list span {
+    padding-right: 20px;
+}
+.down-list {
+    display: flex;
+    padding: 20px;
+    color: #b6b6b6;
+}
+.down-list  span {
+     padding-right: 20px;
+}
+.footer p {
+    color:#b6b6b6;
+    padding: 20px;
+}
